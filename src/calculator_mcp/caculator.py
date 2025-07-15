@@ -1,7 +1,7 @@
 from mcp.server.fastmcp import FastMCP
 import math
 
-mcp = FastMCP("CalculatorService")
+mcp = FastMCP("mcp-calculator")
 
 # 算术工具组
 @mcp.tool()
