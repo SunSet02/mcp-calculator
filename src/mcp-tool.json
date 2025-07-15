@@ -1,6 +1,6 @@
 {
   "name": "CalculatorService",
   "description": "A simple MCP calculator service",
-  "entry": "mcp_server_calculator",
+  "entry": "mcp-calculator",
   "transport": "stdio"
 }
