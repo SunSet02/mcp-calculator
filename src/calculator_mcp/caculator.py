@@ -51,5 +51,6 @@ def get_greeting(name: str) -> str:
     """生成个性化问候语"""
     return f"您好, {name}! 当前支持{len(mcp.tools)}个数学工具"
 
-if __name__ == "__main__":
-    mcp.run(transport="stdio")
+
+def main():
+    mcp.run()
