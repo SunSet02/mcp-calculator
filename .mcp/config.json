@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "CalculatorService": {
+      "command": "uvx",
+      "args": ["src/mcp_calculator/server.py"]
+    }
+  }
+}
