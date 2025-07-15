@@ -1,3 +1,3 @@
-from src.calculator_mcp import main
+from calculator_mcp import main
 
 main()
