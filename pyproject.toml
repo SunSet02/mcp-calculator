@@ -5,8 +5,7 @@ requires-python = ">=3.10"
 dependencies = ["mcp"]
 
 [project.scripts]
-#mcp-calculator = "mcp-calculator:master"
-mcp-calculator = "mcp-calculator.caculator:main"
+mcp_calculator = "mcp_calculator.calculator:main"
 
 [build-system]
 requires = ["hatchling"]
