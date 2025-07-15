@@ -1,11 +1,11 @@
 [project]
-name = "mcp-calculator"
+name = "mcp_calculator"
 version = "0.1.0"
 requires-python = ">=3.10"
 dependencies = ["mcp"]
 
 [project.scripts]
-mcp_calculator = "mcp_calculator.calculator:main"
+mcp_calculator = "mcp_calculator.caculator:main"
 
 [build-system]
 requires = ["hatchling"]
