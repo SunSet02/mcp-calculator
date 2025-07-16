@@ -9,7 +9,7 @@ dependencies = [
 ]
 
 [project.scripts]
-sun_mcp_calculator = "sun_mcp_calculato.caculator:main"
+sun_mcp_calculator = "sun_mcp_calculator.caculator:main"
 
 [build-system]
 requires = ["hatchling"]
