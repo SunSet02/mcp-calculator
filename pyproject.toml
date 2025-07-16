@@ -1,11 +1,15 @@
 [project]
-name = "mcp_calculator"
+name = "sun_mcp_calculator"
 version = "0.1.0"
 requires-python = ">=3.10"
-dependencies = ["mcp"]
+dependencies = [
+    "build>=1.2.2.post1",
+    "mcp",
+    "twine>=6.1.0",
+]
 
 [project.scripts]
-mcp_calculator = "mcp_calculator.caculator:main"
+sun_mcp_calculato = "sun_mcp_calculato.caculator:main"
 
 [build-system]
 requires = ["hatchling"]
